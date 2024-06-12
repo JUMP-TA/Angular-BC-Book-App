@@ -1,0 +1,16 @@
+{
+  "book": [
+    {
+      "id": "1",
+      "title": "Frog & Toad Are Friends",
+      "author": "Arnold Lobel",
+      "price": 7.99
+    },
+    {
+      "id": "90fa",
+      "title": "Test Book",
+      "author": "Test Author",
+      "price": 5.99
+    }
+  ]
+}
