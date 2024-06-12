@@ -1,27 +1,26 @@
-# BookApp
+# Angular Bridge Course: book-app
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
 
-## Development server
+## Quick Note on Project Functionality
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This code comes directly from the Angular Bridge Course videos on **Routing** and **API Consumption**. Though those videos only show how to display and create books, this project does finish implementing the delete and update functionality.
 
-## Code scaffolding
+## Downloading & Running This Project
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Make sure to download the necessary node modules by running `npm install`
+2. Run app using `ng serve` then navigate to `http://localhost:4200/`
 
-## Build
+## Setting Up JSON Server
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+This project will use [json-server](https://www.npmjs.com/package/json-server) to setup a quick API. It already contains a `db.json` file that will act as our dummy database. To setup JSON server for this project, follow these steps:
 
-## Running unit tests
+1. Navigate into this project's folder on your terminal
+2. Install the server: `npm i json-server`
+3. Start the server: `json-server --watch db.json`
+4. If you need to shut the server down: `Ctrl + C`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Examples & Demos
 
-## Running end-to-end tests
+This project demonstrates how to use the **Angular Router** and using **HttpClient** to consume APIs. This app manages a set of books and allows a user to view, add, delete, and update those books. However, it is assumed that the book data is managed by an API using `json-server` at `localhost:3000`.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
